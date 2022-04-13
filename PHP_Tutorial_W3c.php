@@ -1,7 +1,7 @@
  <?php  
         echo "Hi anh em"."<br>";
         // Tên biến thì không cần xác định kiểu dữ liệu, nó tự xác định
-        $a = 6;
+        $a = "Trung";
         echo "My name is: ".$a."<br>";
         //Tên biến có phân biệt chữ in hoa in thường, còn keyword thì không
         $name = "Trung";
