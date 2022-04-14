@@ -75,11 +75,11 @@
                 array("Hoa","Nữ",24)
             );
         //Truy cập 1 phần tử
-        echo "<br> Name = ".$person[0][0]." -  Sex = ".$person[0][1]." - Age = ".$person[0][2];
+        echo "<br> Name = ".$person[0][0]." -  Gender = ".$person[0][1]." - Age = ".$person[0][2];
         //Truy cập mảng bằng for
         echo"<table>";
         echo"<th>Name</th>";
-        echo"           <th>Sex  </th>";
+        echo"           <th>Gender  </th>";
         echo"           <th>Age  </th>";
         for($row=0; $row <2;$row++){
             echo "<tr></tr>";
